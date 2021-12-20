@@ -1,0 +1,141 @@
+@media (max-width:1200px){
+    .fix-width {
+        max-width: 980px;
+    }
+    .product:last-child {
+        transform: translateY(-60px);
+    }
+    .product:nth-child(2) {
+        transform: translate(106%, 140px);
+    }
+    .product {
+        transform: translate(135px);
+    }
+}
+@media (max-width:980px){
+    .fix-width {
+        max-width: 852px;
+    }
+    .product {
+        transform: translate(120px);
+    }
+    .product:nth-child(2) {
+        transform: translate(106%, 130px);
+    }
+    .product:last-child {
+        transform: translateY(-50px);
+    }
+    .ctg-title::before {
+        left: 44%;
+    }
+}
+@media (max-width:852px){
+    .fix-width {
+        max-width: 762px;
+    }
+    .product:last-child {
+        transform: translateY(-40px);
+    }
+    .product {
+        transform: translate(110px);
+    }
+    .categories-left {
+        margin-right: 20px;
+    }
+    .categories-right {
+        margin-left: 20px;
+    }
+    .product:nth-child(2) {
+        transform: translate(106%, 135px);
+    }
+}
+@media(max-width:762px){
+    .fix-width {
+        max-width: 500px;
+    }
+
+.product:last-child {
+    transform:inherit;
+}
+.product:nth-child(2) {
+    transform: inherit;
+}
+.product {
+    transform: inherit;
+}
+
+.product-list span {
+	font-size: 15px;
+	margin-top: 5px;
+}
+.categories-left {
+	margin-right: 15px;
+}
+.product {
+	margin-right: 5%;
+}
+.categories-right {
+	margin-left: 15px;
+}
+.product-list {
+	padding: 20px;
+}
+.ctg-title::before {
+	left: 40%;
+}
+
+}
+@media (max-width:500px){
+    .fix-width {
+        max-width: 280px;
+    }
+
+    .ctg-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .ctg-title::before {
+        left: 42%;
+        width: 50px;
+    }
+    .product {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0%;
+    }
+    .product-items {
+        display: inherit;
+        margin: auto;
+    }
+    .categories-left {
+        width: 100%;
+    }
+    .categories-section {
+        display: inherit;
+    }
+    .categories-right {
+        width: 100%;
+    }
+    .categories {
+        display: inherit;
+        height: 100%;
+    }
+    .ctg-title {
+        margin: 30px 0;
+    }
+    .ctg-image {
+        text-align: center;
+    }
+    .ctg-image img{
+        width: 200px;
+    }
+
+    .categories-left {
+        margin-right: 0px;
+    }
+    .categories-right {
+        margin-left: 0px;
+    }
+
+
+}

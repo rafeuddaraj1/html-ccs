@@ -1,0 +1,14 @@
+.container{
+}
+.item{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.item:nth-child(odd){
+    background-color: rgb(8, 167, 216);
+}
+.item:nth-child(even){
+    background-color: rgb(121, 236, 13);
+}

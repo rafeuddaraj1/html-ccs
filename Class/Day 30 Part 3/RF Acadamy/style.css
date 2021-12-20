@@ -1,0 +1,247 @@
+.header{
+    background: #f3f3f3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.header-logo a{
+    text-decoration: none;
+}
+.header-logo span {
+    display: inline-block;
+    font-size: 35px;
+    color: #767676;
+    font-weight: 600;
+    margin-top: 22px;
+    transition: .4s;
+}
+.header-logo span:hover{
+    color: #0d6efd;
+}
+.header-logo img{
+    height: 90px;
+    float: left;
+}
+.header-menu{}
+.header-menu ul{
+
+}
+.header-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.header-menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(32, 30, 30);
+    transition: .4s;
+    line-height: 75px;
+}
+.header-menu ul li:hover>a{
+    color: #0d6efd;
+}
+.header-menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top center;
+    width: 200px;
+    background: #f3f3f3;
+}
+.header-menu ul li ul li{
+    display: block;
+}
+.header-menu ul li ul li a {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: -31px;
+    text-align: center;
+}
+.header-menu ul li ul li a:hover .class-itms{
+    box-shadow: 3px 5px 40px 0 rgb(24 120 192);
+}
+
+.header-menu ul li ul li a:focus .class-button button{
+    background: #0d6efd;
+    color: #ffffff;
+}
+
+.header-menu ul li ul li a:focus>.class-itms .class-h{
+    background: #0d6efd;
+    color: #fff;
+
+}
+
+.header-menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.login button{
+    
+    background: #0d6efd;
+    color: #fff;
+    transition: .4s;
+}
+.login button:hover{
+
+    background-color: #fff;
+    color: #0d6efd;
+
+}
+.login button:focus{
+    color: #0d6efd;
+
+}
+
+.banner-section {
+    background-image: url(img/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    margin-top: 93px;
+}
+.about h2 {
+    color: #fff;
+    background: rgba(5, 233, 157, 0.3);
+    display: inline-block;
+    padding: 7px 16px;
+    font-size: 98px;
+    border-radius: 10px;
+    font-weight: 500;
+    user-select: none;
+}
+.about p {
+    color: white;
+    background: rgba(69, 228, 6, 0.4);
+    display: inline-block;
+    font-size: 73px;
+    padding: 2px 22px;
+    border-radius: 10px;
+    margin-top: 50px;
+    user-select: none;
+}
+
+
+.class-section {
+    padding: 50px 0;
+    background: #fff;
+}
+.class-itms {
+    margin-right: 5%;
+    margin-bottom: 60px;
+    background: #fff;
+    box-shadow: 3px 5px 40px 0 rgb(24 120 192 / 20%);
+    transition: .4s;
+}
+
+.class-itms:hover .class-h{
+    background: #0d6efd;
+    color: #fff;
+}
+.class-itms:hover{
+    box-shadow: 3px 5px 40px 0 rgb(24 120 192 / 50%);
+}
+.class-h {
+    padding: 50px;
+    border-bottom: 1px solid #ddd;
+    transition: .4s;
+}
+.class-h h3 {
+    font-size: 36px;
+    font-weight: 400;
+    user-select: none;
+}
+.class-h h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin: 49px 0px;
+    user-select: none;
+}
+.class-h h4 {
+    font-size: 31px;
+    font-weight: 600;
+    user-select: none;
+}
+.class-content {
+    padding: 20px;
+}.class-content ul {
+    list-style: none;
+}
+.class-content ul li {
+    margin: 24px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #767676;
+    user-select: none;
+}
+.class-button button {
+
+    transition: .4s;
+}
+.class-button button:hover{
+    background: rgb(0, 0, 0) !important;
+    color: #ffffff;
+
+}
+.class-itms:hover .class-button button{
+    background: #0d6efd;
+    color: #ffffff;
+}
+
+
+.course{
+    background: #fafafa;
+}
+
+.ovdd{
+
+    max-width: 100%;
+    max-height: 315px;
+}
+
+.vv{
+    background: #95e17d;
+}
+.bgi-d{
+    background-image: url(img/banner_flag.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.nnnn {
+    background: #0d6efd;
+    color: #fff;
+    margin-top: 83px;
+    height: 70px;
+    transition: .4s;
+}
+.nnnn:hover{
+    background: #fff;
+    color: #0d6efd;
+
+}
+textarea.form-control {
+    min-height: calc(1.5em + 0.75rem + 200px);
+}
+.form{
+    padding: 60px 0;
+}
+/* footer p{
+    color: black;
+} */

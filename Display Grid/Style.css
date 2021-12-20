@@ -1,0 +1,23 @@
+.item{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.item:nth-child(odd){
+    background-color: rgb(12, 207, 241);
+}
+.item:nth-child(even){
+    background-color: rgb(238, 12, 227);
+}
+.item:nth-child(3n+3){
+    background-color: rgb(148, 235, 10);
+}
+.item:nth-child(4){
+    background-color: rgb(10, 235, 205);
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 4fr 2fr;
+    grid-template-rows:100px 100px;
+    grid-gap: 5px;
+}

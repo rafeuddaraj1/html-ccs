@@ -1,0 +1,19 @@
+
+@media (max-width:1200px) {
+    input {
+        width: 170px ;
+    }
+    .form-group label span::after {
+        content: ":";
+        margin-left: 2px;
+    }
+    .header-logo {
+        height: 157px;
+    }
+    input {
+        width: 157px;
+    }
+    .footer-left p {
+        font-size: 8px;
+    }
+}

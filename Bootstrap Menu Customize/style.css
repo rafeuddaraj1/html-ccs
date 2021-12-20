@@ -1,0 +1,90 @@
+.my-menu{}
+.my-menu ul{}
+.my-menu ul li {
+    display: block;
+}
+.my-menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: #111;
+    font-weight: 500;
+    font-size: 16px;
+}
+.header-right{}
+.search {
+    width: 59px;
+}
+.search span {
+    font-size: 25px;
+    border-right: 1px solid #ddd;
+    display: inline-block;
+    padding-right: 12px;
+}
+.header-call {
+    width: 220px;
+}
+.call-icon{}
+.call-icon span {
+    display: block;
+    font-size: 35px;
+    margin-right: 13px;
+    color: #e83b3e;
+}
+.header-call-action{}
+.header-call-action p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #606060;
+}
+.header-call-action a {
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button-right-header{}
+body .btn-primary {
+    padding: 10px 32px;
+    background: #e83b3e !important;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+body .container-fluid{
+    max-width: 1480px;
+}
+body .btn-primary::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background: #000;
+    height: 100%;
+    width: 0%;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+}
+body .btn-primary:hover::before{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.team-members{
+    margin-top: 90px;
+}
+.team-member{}
+.team-member img{
+    width: 100%;
+}
+.team-member-bio{}
+.team-member-bio h6{}
+.team-member-bio p{}
+.team-member {
+    background: #ddd;
+}

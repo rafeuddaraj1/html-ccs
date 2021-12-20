@@ -1,0 +1,41 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background:gray;
+}
+.menu{
+height:100px;
+width:100%;
+background:white;
+text-align: center;
+position: relative;
+}
+.menu ul{
+margin-top:40px;
+}
+.menu ul li{
+}
+.menu ul li a{
+text-decoration:none;
+height:100px;
+width:100px;
+border:1px solid black;
+}
+.gg ul li ul{
+
+}
+.gg ul li{
+display:inline-block;
+}
+.gg ul li a{
+color:white;
+}
+.gg{
+position:absolute;
+top:0;
+left:0;
+height:100px;
+
+}

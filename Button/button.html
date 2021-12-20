@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }.button{
+           
+        }
+        .button a{
+                text-decoration: none;
+                color: #111;
+                font-size: 30px;
+                padding: 20px 40px;
+                position: relative;
+            }
+            .button a::after,a::before,span::before,span::after{
+                content: "";
+                position: absolute;
+                background-color: rgb(0, 0, 0);
+                height: 10px;
+                width: 10px;
+                transition: .1s;
+                mix-blend-mode: hue;
+            }
+            a::after{
+                right: 0%;
+            }
+            a:hover::before{
+                height: calc(50px /2);
+                width: calc(180px /2);
+            }
+            a::before{
+                left: 0%;
+            }
+            span::before{
+                left: 0%;
+                bottom: -44%;
+            }
+            span::after{
+                right: 0%;
+                bottom: -44%;
+            }
+            span{
+                position: relative;
+            }
+    </style>
+</head>
+<body>
+    <div class="button">
+        <span>
+            <a href="#">Buy Now</a>
+        </span>
+    </div>
+</body>
+</html>

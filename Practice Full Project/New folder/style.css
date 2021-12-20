@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+
+padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.featured-item{
+    width: 40%;
+    overflow: hidden;
+    height: 100%;
+}
+.fuatured-content {
+    width: 60%;
+    padding: 27px;
+    box-sizing: border-box;
+}
+.featured-item img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -40px;
+}
+.featured-section{
+    height: 300px;
+    display: flex;
+    background: orange;
+    max-width: 500px;
+    margin: 50px auto;
+    align-items: center;
+    
+}
+.car {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    color: #111;
+    z-index: 1;
+    font-size: 49px;
+    transform: rotateY(183deg);
+    animation: car 6s ease-in-out infinite;
+}
+@keyframes car{
+    0%{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        position: relative;
+        left: 100px;
+        top: 0;
+    }
+    50%{
+        left: 300px;
+        top: 0;
+    }
+    75%{
+        position: relative;
+        left: 300px;
+        top: 200px;
+    }
+    100%{
+        position: relative;
+        left: -500px;
+        top: 0px;
+    }
+}

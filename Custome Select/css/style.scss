@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selec{
+    position: relative;
+}
+select{
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #4d5061;
+    color: #fff;
+    padding-right: 80px;
+}
+span{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 4rem;
+    background-color: #3d3c47;
+    top: 0%;
+    right: 0%;
+    pointer-events: none;
+}
+span::after, span::before{
+    position: absolute;
+    content: '';
+    height: 0%;
+    width: 0%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+
+
+}
+$sz:.7rem;
+$color:rgba(255, 255, 255, 0.445);
+span::before{
+    border-right: $sz solid transparent;
+    border-left: $sz solid transparent;
+    border-bottom: $sz solid $color;
+    top: 8px;
+}
+span::after{
+    border-right: $sz solid transparent;
+    border-left: $sz solid transparent;
+    border-top: $sz solid $color;
+    bottom: 3px;
+}

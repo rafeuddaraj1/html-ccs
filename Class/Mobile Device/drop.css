@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.drop{
+  margin-top: 20px;
+}
+.drop ul{
+background-color: #3498db;
+text-align: center;
+  
+}
+.drop ul li{
+  display: inline-block;
+margin-right: -5px;
+position: relative;
+
+}
+.drop ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+  padding: 10px 17px;
+  border-right: 1px solid white;
+  }
+.drop ul li:first-child a{
+  
+  border-left: 1px solid white;
+}
+
+
+.drop ul li ul{
+ background-color: #3498db;
+  position: absolute;
+  top:100%;
+  left: 0;
+  width: 100px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+  transform: scaley(0);
+  transform-origin: top center;
+}
+
+.drop ul li ul li{
+  display: block;
+  margin: 0;
+ 
+}
+.drop ul ul li a{
+  display: block;
+  border-right: none;
+  border-bottom: 1px solid white;
+  
+}
+.drop ul ul li:first-child a{
+  border-left: none;
+  border-top: 1px solid white;
+}
+.drop ul li:hover>a{
+  background:#2980b9;
+  
+}
+
+
+.drop ul li:hover ul{
+  
+  opacity : 1;
+  visibility: visible;
+  transform: scaley(1);
+ 
+}

@@ -1,0 +1,173 @@
+*{
+ margin:0;
+ padding:0;
+  
+}
+.fw{
+  text-align: center;
+  margin:0 auto ;
+  width: 600px;
+  color:white;
+  box-shadow: 1px 3px 8px black;
+  
+  
+  
+}
+.menu{
+  background:#b8e994 ;
+  
+  
+}
+.ct{
+ background:#78e08f ;
+}
+.ct h1{
+ font-size: 40px;
+ font-weight: 900;
+  
+}
+.ct p{   
+  font-size: 25px;
+  line-height: 50px;
+}
+.ftr{
+  
+  background:#2f3640 ;
+}
+.fb{
+  background: #3c6382;
+}
+.bn img{
+  box-shadow: 2px 2px 4px white;
+  
+  max-width:100%;
+  margin-bottom: -7px;
+
+  
+  
+  
+}
+
+
+/*         Image hover                  */
+
+.bn .inter{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:rgba(130, 204, 221,.5) ;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s;
+ 
+}
+
+.main{
+  width: 600px;
+  position: relative;
+  text-align: center;
+  
+}
+.inter h3{
+  font-size: 50px;
+  margin-top: 100px;
+  
+  
+}
+.inter p{
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  
+}
+
+.bn:hover .inter{
+  
+  height: 100%;
+  width: 100%;
+  visibility: visible;
+  opacity:1;
+  
+}
+
+
+
+
+
+/*               Menu                     */
+
+.menu ul{
+  
+border-bottom: 5px solid #7f8fa6;
+}
+.ft ul{
+
+}
+.ft ul li{
+  display: inline-block;
+
+}
+.menu ul li a{
+  background:#b8e994 ;
+  text-decoration: none;
+  color:black;
+  display: inline-block;
+  padding: 30px 40px;
+  border-left: 1px solid white;
+  margin-right: -5px;
+  transition: .4s;
+  
+ 
+}
+.menu ul li:last-child a{
+  border-right: 1px solid white;
+}
+ul{
+  list-style-type: none;
+  
+}
+.menu ul li:hover a{
+  background:#82ccdd ;
+}
+
+
+
+/*             Footet Menu               */
+
+.ft .ftr{
+  background: #2f3640;
+  
+}
+.ft .ftr li{
+  border-top: 1px solid white;
+  display: block;
+}
+.ft .ftr li a{
+  
+  text-decoration: none;
+  color:white;
+  display: block;
+  border-bottom: 1px solid white;
+  padding: 20px 40px;
+  padding:20px 40px;
+  
+}
+.ft .ftr li a:hover{
+  background: #0c2461;
+  
+}
+
+.fb{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Open Sans Condensed', sans-serif;
+  
+  
+}
+
+.pd{
+  padding: 20px 40px;
+  
+}

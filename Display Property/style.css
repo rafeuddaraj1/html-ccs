@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+padding: 0;
+}
+
+.heading h4{
+    text-align: center;
+    background: rgb(8, 170, 94);
+    
+}
+table{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+}
+th{
+    border-bottom: 1px solid #ddd;
+}
+td{
+    border-bottom: 1px solid #ddd;
+}
+.tdd{
+    border-bottom: none;
+}

@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.main{
+  border:1px solid black;
+  text-align: center;
+  width: 800px;
+  margin: 100px auto;
+  padding:20px;
+  
+}
+.div1{
+  
+  height: 200px;
+  width: 200px;
+  background: orange;
+    display: inline-block;
+    margin-right: 10px;
+    transition:.5s;
+}
+.div1:hover{
+  
+  transform:translate(-100px,-100px);
+}
+
+.div2{
+  
+  height: 200px;
+  width: 200px;
+  background: orange;
+    display: inline-block;
+    Transition:.5s;
+   
+}
+.div2:hover{
+  transform: rotate(120deg);
+  
+}
+.div3{
+  
+  height: 200px;
+  width: 200px;
+  background: orange;
+  display: inline-block;
+  margin-left: 10px;
+  Transition:.5s;
+}
+.div3:hover{
+  transform: skew(40deg);
+  
+}

@@ -1,0 +1,27 @@
+@media (max-width:900px) {
+    .title-section {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 370px;
+        
+    }
+    .login-item {
+        flex-direction: column;
+    }
+    .title h2 {
+        font-size: 22px;
+    
+  
+ 
+}
+@media (max-width:406px) {
+    .title h2 {
+        font-size: 20px;
+    }
+    .title-section {
+        width: 293px;
+    }
+    .form-section {
+        width: 289px;
+    }
+}

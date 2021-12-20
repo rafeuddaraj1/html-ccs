@@ -1,0 +1,10 @@
+img{
+    max-width: 100%;
+}
+.navbar .container-fluid{
+    max-width: 1200px;
+}
+.navbar .container-fluid img{
+    width: 200px;
+
+}

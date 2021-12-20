@@ -1,0 +1,52 @@
+*{margin:0;
+padding:0;}
+.main{
+width:600px;
+border:1px solid black;
+margin: 30px auto;
+color:white;
+padding:40px;
+}
+.hover{
+width:300px;
+text-align: center;
+position: relative;
+}
+
+.inter{
+position: absolute;
+right:0;
+top:0;
+height:0%;
+width:0;
+text-align: center;
+background:rgba(255, 71, 87,.4);
+visibility: hidden;
+opacity:0;
+Transition:.4s;
+
+
+}
+.hover img{
+max-width:100%
+
+}
+.inter h2{
+
+margin-top:50px;
+font-size:70px;
+
+}
+.inter p{
+font-size:24px;
+line-height:48px;
+}
+
+.hover:hover .inter{
+height:100%;
+width:100%;
+visibility: visible;
+opacity:1;
+
+
+}

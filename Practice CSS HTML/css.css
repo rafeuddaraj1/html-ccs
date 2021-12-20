@@ -1,0 +1,17 @@
+*{
+margin:0;
+padding:0;
+
+}
+.ar{text-align: center;
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVv-uN2jOsL5gy0XR11TQFH1CCKJM2zW2DMA&usqp=CAU);
+background-position:top center;
+background-size:cover;
+padding: 200px 0;
+background-repeat:no-repeat;
+background-attachment: fixed;
+}
+.ar-they{
+height:10000px;
+
+}

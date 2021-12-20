@@ -1,0 +1,27 @@
+.bootstrap-heading{
+    height: auto;
+    width: 600px;
+    margin: 70px auto;
+}
+.bootstrap-heading-2{
+    height: auto;
+    width: 600px;
+    margin: 70px auto;
+}
+.bootstrap-heading img{
+    max-width: 49%;
+
+
+}
+.bootstrap-heading img:nth-child(2){
+
+}
+.table-b{
+ margin: auto;
+    width: 600px;
+}
+.height-dd{
+    height: 200px;
+    margin: auto;
+    background: rgb(236, 130, 130);
+}

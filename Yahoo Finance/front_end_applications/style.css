@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Responsive korar time pelam na. tumi fix-width er width komiye ar font size habi jaji komiye koro? */
+
+
+a{
+    
+    text-decoration: none;
+}
+.carousel-section{
+    margin-top: 100px;
+}
+.d-flex{
+    display: flex;
+}
+.fix-width{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.item{
+    width: 16.66%;
+    margin-right: 2%;
+    border-right: 4px solid green;
+    
+}
+/* Tumi caile border-right na use kore item er moddhe ekta div niye after or before kore height 100% diye width 4px diyeo hobe?
+onek way tei ei rokom section kora jay. amar theke ei way tay best hoyche?
+*/
+.item:nth-of-type(4){
+    border-right: 4px solid #eb0f3a;
+}
+.item:last-child{
+    margin-right: 0;
+}
+.item:first-child{
+    border-left: 4px solid #00873c;
+    padding-left: 2%;
+}
+.color{
+    color: #eb0f3a !important;
+}
+.spanClassTwo{
+    color: #00873c;
+    font-size: 11;
+    font-weight: bold;
+}
+.spanClass{
+    margin-bottom: .5rem;
+    display: block;
+
+}
+.item .spanClass a:hover{
+    text-decoration: underline;
+}
+.item p{
+    
+    color: #111;
+    font-weight: bold;
+}
+
+/* Tumi baki gula customize kore neo? */

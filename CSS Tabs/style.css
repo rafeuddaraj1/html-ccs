@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fix-wid{
+    width: 1280px;
+    margin: 50px auto;
+    
+}
+
+
+.tabbed input{
+    display: none;
+}
+
+.tabbed label {
+    display: block;
+    float: left;
+    padding: 12px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.tabbed label:hover{
+    background-color: rgba(0, 0, 255, 0.562);
+}
+
+
+.tabs{}
+.tabs .tabs-item {
+    border: 1px solid #182fd56b;
+    padding: 10px 20px 30px;
+    opacity: 0;
+    transition: .5s;
+    position: absolute;
+    transform: rotateX(-20deg);
+    transform-origin: top center;
+    z-index: 0;
+}
+.tabs .tabs-item h2{}
+.tabs .tabs-item p{}
+#tab-one ~ .tabs .tabs-item:nth-child(1){
+    opacity: 1;
+    z-index: 1;
+    transform: rotateX(0deg);
+    
+}

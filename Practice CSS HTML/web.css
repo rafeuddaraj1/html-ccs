@@ -1,0 +1,32 @@
+*{
+margin:0;
+padding:0;
+}
+.fw{
+text-align: center;
+color: white;
+width: 700px;
+box-shadow:2px 2px 2px black;
+
+}
+.menu{
+background:red;
+}
+.ct{background:black;
+
+}
+.ft{
+background:green;
+}
+.fb{
+background: blue;
+
+}
+img{
+margin:-10px;
+max-width:100%;
+}
+.pd{
+padding:30px 0;
+
+}

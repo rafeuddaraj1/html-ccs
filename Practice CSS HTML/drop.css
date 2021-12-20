@@ -1,0 +1,100 @@
+*{
+margin:0;
+padding:0;
+}
+.main ul{
+text-align: center;
+
+
+}
+.main ul li{
+display:inline-block;
+position :relative;
+margin-left:-5px;
+}
+.main ul li a{
+text-decoration:none;
+display:inline-block;
+padding:40px 20px;
+color:white;
+font-size:50px;
+border-right:1px solid white;
+
+}
+.main ul li:first-child a{
+border-left:1px solid white;
+
+}
+.main{
+background:red ;
+margin-top:50px;
+}
+.main ul li:hover >a{
+background:black;
+}
+
+
+
+/*.    */
+.main ul li ul{
+position: absolute;
+left:0;
+top:100%;
+width:300px;
+background:red;
+opacity:0;
+visibility: hidden;
+Transition:.4s;
+transform: scaley(0);
+transform-origin:top center;
+
+
+}
+.main ul li ul li{
+display: block;
+margin-left:0;
+}
+.main ul li ul li a{
+border-right:none;
+border-bottom:1px solid white;
+display: block;
+}
+.main ul li ul li:first-child a{
+border-left:none;
+border-top:1px solid white;
+}
+.main ul li:hover ul{
+opacity:1;
+visibility: visible;
+transform: scaley(1);
+}
+
+
+
+.ic{
+
+}
+.ic ul{
+text-align: center;
+margin-top:800px;
+}
+.ic ul li{
+display:inline-block;
+margin-left:-5px;
+}
+.ic ul li a{
+font-size:70px;
+color:white;
+background:red;
+margin-left:5px;
+margin-right:12px;
+height:100px;
+width:100px;
+display:inline-block;
+line-height:100px;
+border-radius:50%;
+Transition:.4s;
+}
+.ic ul li a:hover{
+background:black;
+}

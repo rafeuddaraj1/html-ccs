@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        .mobile-menu input {
+        display: inline;
+        width: 47px;
+        height: 33px;
+        z-index: 1;
+        opacity: 0;
+        position: relative;
+        }
+        strong{
+            display: none;
+        }
+        .mobile-menu input:checked ~ ul{
+            display: block;
+        }
+        .mobile-menu input:checked ~ strong{
+            display: block;
+        }
+        .mobile-menu span {
+        display: inline-block;
+        font-size: 40px;
+        height: 20px;
+        position: absolute;
+        left: 6px;
+        top: -6px;
+    }
+        .mobile-menu{
+            width: 600px;
+            margin:100px auto;
+            position: relative;
+        }
+        .mobile-menu ul{
+            display: flex;
+            display: none;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        .mobile-menu ul li{
+            list-style: none;
+        }
+        .mobile-menu ul li a{
+            display: block;
+            padding: 10px;
+        }
+        audio{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile-menu">
+        <span><i class="fas fa-bars    "></i></span>
+        <strong><i class="fas fa-cross    "></i></strong>
+        <input type="checkbox">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+    </div>
+    <div class="video click">
+        <audio src="Bhalo Thakuk Bhalobasha _ Meraj Tushar _ Afran Nisho _ Peya Bipasha _ Bangla New Song 2018(MP3_160K).mp3" controls width="5000px"></audio>
+
+        <video autoplay muted>
+            <source src="Ekla Cholte Hoy with lyrics  Nachiketa Chakraborty  Best Of Nachiketa  HD Song.mp4">
+        </video>
+    </div>
+</body>
+</html>

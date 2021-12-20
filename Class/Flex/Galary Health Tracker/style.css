@@ -1,0 +1,23 @@
+.img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.text-sec{
+    width: 60%;
+}
+img{
+    max-width: 100%;
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 4px 5px 40px 0 rgba(0, 47, 255, 0.158);
+}
+.img-sec img {
+
+    height: 100%;
+    width: auto;
+    max-width: inherit !important;
+    position: relative;
+    left: -90px;
+}

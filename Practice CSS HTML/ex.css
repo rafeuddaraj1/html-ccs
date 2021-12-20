@@ -1,0 +1,40 @@
+*{
+padding:0;
+margin:0;
+
+}
+.main{
+width:800px;
+border:1px solid black;
+margin:100px auto;
+padding:20px;
+text-align: center;
+}
+.div1{
+height:100px;
+width:200px;
+background:red;
+display:inline-block;
+line-height:100%;
+position: relative;
+bottom:40px;
+
+}
+.div1 a img{
+max-width:100%;
+}
+
+
+.div2{
+height:200px;
+width:200px;
+background:orange;
+display:inline-block;
+}
+.div3{
+height:200px;
+width:200px;
+background:green;
+display:inline-block;
+
+}

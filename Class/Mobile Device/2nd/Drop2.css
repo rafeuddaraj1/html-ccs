@@ -1,0 +1,70 @@
+*{
+margin:0;
+padding:0;
+
+}
+.menu ul{
+background:#7158e2;
+text-align: center;
+}
+.menu ul li{
+display:inline-block;
+position: relative;
+
+}
+.menu ul li a{
+color:white;
+display:inline-block;
+text-decoration:none;
+padding: 40px 70px;
+border-right:1px solid white;
+margin-left:-4px;
+font-weight:900;
+}
+.menu ul li:first-child a{
+border-left:1px solid white;;
+
+}
+.menu ul li:hover > a{
+background:#4927e3;
+}
+/*          DropDown                  */
+
+
+
+.menu ul li ul{
+background:#7158e2;
+position :absolute;
+top:100%;
+Left:0;
+width:300px;
+border-top:1px solid white;
+Transition:.4s;
+
+}
+.menu ul li ul li{
+display: block;
+}
+
+.menu ul li ul li a{
+display: block;
+margin-left:0;
+border-bottom:1px solid white;
+
+}
+.menu ul ul li:first-child a{
+border-left:none;
+
+}
+.menu ul li:hover ul{
+visibility: visible;
+opacity:1;
+transform: scaley(1);
+}
+.menu ul li ul{
+visibility: hidden;
+opacity:0;
+transform: scaley(0);
+transform-origin:top center;
+
+}

@@ -1,0 +1,32 @@
+div{
+text-align: center;
+margin:100px;
+}
+a{
+background:#575fcf;
+text-decoration: none;
+color:white;
+font-size:50px;
+display:inline-block;
+padding:30px 60px;
+position: relative;
+z-index:1;
+border-radius:10px;
+}
+a::before{
+content:"";
+background:red;
+height:100%;
+width:0;
+position: absolute;
+left:0;
+top:0;
+Transition:.6s;
+z-index:-1;
+border-radius:10px;
+
+
+}
+a:hover::before{
+width:100%;
+}

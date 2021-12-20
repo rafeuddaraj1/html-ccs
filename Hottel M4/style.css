@@ -1,0 +1,118 @@
+img{
+    max-width: 100%;
+}
+.navbar-brand img{
+    height:3.8rem;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+}
+.my-menu{
+    flex: 1 0 auto;
+    justify-content: flex-start;
+}
+.my-menu ul{
+    margin-right: 0 !important;
+    margin: 0 100px !important;
+}
+
+.my-menu ul li{
+    list-style: none;
+    position: relative;
+
+}
+.my-menu ul li a{
+    text-decoration: none;
+    color: #b7b6b6;
+    padding: 0 20px;
+    transition: .4s;
+    position: relative;
+    
+}
+.my-menu ul li .main::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    transition: .4s;
+    position: absolute;
+    left: 0%;
+    bottom: -3px;
+}
+.my-menu ul li:hover>.main{
+    color: rgb(221, 218, 218);
+    transform-origin: left center;
+    border-bottom-width: 2px;
+}
+.my-menu ul li:hover>::before{
+    width: 100%;
+}
+.my-menu ul li a::after{
+    content: "";
+    display: inline-block;
+    margin-left: .25rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+}
+.header-btn a{
+    background-color: #fff;
+    color: #111;
+    padding: 2px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    display: block;
+}
+
+.my-menu ul li ul{
+    width: 200px;
+    position: absolute;
+    left: 0%;
+    top: 115%;
+    background-color: rgb(238, 235, 235);
+    margin-left: 0 !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    padding: 0%;
+
+}
+.my-menu ul li ul li a{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: center;
+}
+.my-menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Slider Section */
+
+.slider-section{
+    background:url(img/background6.jpg) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+
+.slider-section::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0000008c;
+    z-index: -1;
+
+}

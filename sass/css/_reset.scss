@@ -1,0 +1,65 @@
+$light:red;
+$pd:20px 50px;
+
+.header{
+    color: $light;
+    padding: $pd;
+    margin: $pd ;
+    @extend %lop;
+}
+
+%lop{
+    color: red;
+    background-color: #ddd;
+    padding: 10px 50px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+
+@mixin rong ($color1, $color2, $color3) {
+
+    background: -webkit-linear-gradient($color1, $color2, $color3);
+    background: linear-gradient($color1, $color2, $color3);
+    
+}
+.box{
+    @include rong(red, green, blue);
+    height: 200px;
+    width: 200px;
+}
+
+.bb{
+    @include rong( black, red, orange);
+
+}
+
+
+@mixin rafe($col) {
+    background-color: $col;
+    background-color: $col;
+    background-color: $col;
+    background-color: $col;
+    background-color: $col;
+    background-color: $col;
+    
+}
+.box{
+    @include rafe(red)
+}
+
+@mixin ee($dxc, $color1, $color2, $color3) {
+    background: linearGradient($dxc, $color1, $color2, $color3);
+    
+}
+@mixin rong ($color1, $color2, $color3) {
+
+    background: -webkit-linear-gradient($color1, $color2, $color3);
+    background: linear-gradient($color1, $color2, $color3);
+    
+}
+
+.mm{
+    @include ee(to right, red, black,gray)
+}

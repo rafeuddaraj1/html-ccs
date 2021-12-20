@@ -1,0 +1,26 @@
+
+*{margin:0;
+padding:0;
+
+}
+
+
+.potaka{
+height:600px;
+width:700px;
+background:green;
+text-align: center;
+margin:50px auto;
+padding:50px;
+
+}
+.kosum{
+
+height:600px;
+width:600px;
+border-radius:50%;
+background:red;
+display:inline-block;
+position: relative;
+top:15
+}

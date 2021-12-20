@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix{
+max-width: 1200px;
+margin: auto;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    background-color: green;
+    flex:1 0 0% ;
+}
+.menu ul li{
+    flex-grow: 1;
+}
+.menu ul li a{
+    color: #fff;
+    display: block;
+    padding: 20px 30px;
+}
+.item-2{
+display: flex;
+flex: 1 1 0%;
+margin-top: 20px;
+
+
+}
+.items-2{
+    
+    border: 2px solid red;
+    padding: 20px 30px;
+    margin: 0 10px;
+    flex: 1 1 0%;
+}
+.items-2:nth-child(2){
+    flex-grow: 2;
+}

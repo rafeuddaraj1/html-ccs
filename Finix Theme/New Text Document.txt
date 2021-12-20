@@ -1,0 +1,6 @@
+display flex dile 
+
+1st div er 2nd er sob gulay align items center dile
+kaj kore. but. 1ta div nile d-flex dile ar jodi or porei 
+items thake sathe sathe kaj kora suru kore dibe jodi 
+ami items center kore dei 1st div ke

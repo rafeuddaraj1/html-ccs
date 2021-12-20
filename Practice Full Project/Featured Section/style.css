@@ -1,0 +1,25 @@
+img{
+    max-width: 100%;
+}
+.featured-items{
+    height: 300px;
+    background: #fff;
+}
+.featured-img {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.featured-img img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -56px;
+}
+.featured-content {
+    width: 60%;
+    padding: 27px;
+}
+.featured-content h6{}
+.featured-content p{}

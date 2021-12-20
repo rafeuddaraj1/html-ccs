@@ -1,0 +1,58 @@
+/* Default Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.alc{
+    align-items: center;
+}
+.jcc{
+    justify-content: center;
+}
+.w-50{
+    width: 50%;
+}
+.col-3{
+    width: 33%;
+}
+.fix-width{
+    width: 1200px;
+    margin:0 auto;
+}
+img{
+    max-width: 100%;
+}
+/* Customs CSS */
+
+
+.product-items{
+    height: 60vh;
+}
+.product-section{
+    background-color: #fffeff;
+}
+.product-content{
+    background-color: #fff;
+    box-shadow: 5px 6px 40px 0 rgba(92, 91, 91, 0.096);
+    text-align: center;
+    padding: 40px;
+    border-radius: 0 0 15px 0;
+}
+
+.product-content:first-child{
+    transform: translateY(-50%);
+
+}
+.product-list{
+    margin-right: 2%;
+}
+.product-list:last-child{
+    margin-right: 0;
+}
+.product-content span{
+    display: block;
+}

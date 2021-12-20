@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+
+/*  Begain main css  */
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-section {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	padding: 6px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+}
+.header-section a{
+    color: #010101;
+}
+.header-logo{
+    width: 30%;
+}
+.logo img {
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.logo span {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.header-menu {
+    width: 56%;
+}
+.header-button {
+    width: 14%;
+    text-align: right;
+}
+.header-btn {
+	border: 2px solid #6278df;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin-top: 8px;
+	color: #6278df !important;
+	font-size: 17px;
+	font-weight: 600;
+}
+.primary-menu{}
+.primary-menu ul{}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: block;
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 60px;
+}
+.primary-menu ul li a:hover{}
+
+/*  DropDown Mneu css  */
+.primary-menu ul li{
+    position: relative;
+}
+.primary-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background: #fff;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.primary-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+
+/* Banner CSS */
+.banner-section {
+	background: url(https://i.ibb.co/PmHFfFy/02.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 200px 0;
+	color: #fff;
+	position: relative;
+	z-index: 9;
+	margin-top: 70px;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+.banner-content{}
+.banner-content h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.banner-content h2 {
+    font-size: 60px;
+    margin: 30px 0;
+}
+
+.default-btn {
+	color: #7d7d7d;
+	padding: 20px 30px;
+	background: #fff;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 5px;
+	margin-right: 5px;
+    border-radius: 10px;
+    transition:.4s;
+}
+.default-btn:hover{
+    background: #6278df;
+    color: #fff;
+}
+
+/*  Banner Section  */
+.banner-bottom{
+    background: #f7f9ff;
+    padding: 100px 0;
+}
+.video-left{
+    width: 48%;
+}
+.video-content-right{
+    width: 48%;
+}
+.video-content-right h3 {
+    font-size: 51px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.video-content-right p {
+    color: #767676;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+/*  Servcie Section  */
+.service-section{
+    background: #fff;
+    padding: 100px 0;
+}
+
+.section-title h1 {
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.section-title p {
+    color: #767676;
+    font-size: 26px;
+}
+
+/*  Serice Item  */
+.services-items {
+    margin-top: 90px;
+}
+.service-box {
+    width: 31.3%;
+    box-shadow: 4px 4px 20px 0 rgba(0,0,0,.1);
+    margin-right: 2%;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.s-icon {
+    width: 60px;
+    float: left;
+    min-height: 168px;
+    font-size: 45px;
+    color: #6278df;
+    margin-right: 10px;
+}
+.s-content {
+    margin-top: 8px;
+}
+.s-content h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.s-content p {
+    color: #767676;
+    font-size: 20px;
+    line-height: 1.6em;
+}
